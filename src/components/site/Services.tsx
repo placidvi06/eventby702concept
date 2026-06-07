@@ -23,6 +23,8 @@ export default function Services() {
             padding:15,
             background:"#fff",
             borderRadius:10,
+            boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
+	    borderRadius: "16px",
             border:"1px solid #eee"
           }}>
             {s}

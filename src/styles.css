@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --brand-gold: #C5A059;
   --brand-dark: #121417;
@@ -54,4 +58,7 @@ p {
   border: 1px solid var(--brand-gold);
   background: transparent;
   color: var(--brand-gold);
+}
+html {
+  scroll-behavior: smooth;
 }

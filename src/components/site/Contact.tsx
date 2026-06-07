@@ -1,15 +1,35 @@
 export default function Contact() {
   return (
-    <section style={{marginTop:50}}>
-      <h2>Contact</h2>
+    <section style={{ padding: "60px 0", textAlign: "center" }}>
+      <h2>Contact Us</h2>
 
-      <p>21 Dopemu Rd, Orile Agege, Lagos</p>
+      <p>
+        21 Dopemu Rd, Behind Ajoke Filling Station,
+        Orile Agege, Lagos
+      </p>
+
+      <p>🟢 Open 24 Hours</p>
+
+      <a
+       href="https://maps.google.com/?q=21+Dopemu+Road+Orile+Agege+Lagos"
+       target="_blank"
+       rel="noreferrer"
+      >
+       Get Directions
+     </a>
 
       <a href="tel:08032734531">
-        <button className="btn btn-gold">Call 0803 273 4531</button>
+        <button className="btn btn-gold">
+          Call 0803 273 4531
+        </button>
       </a>
-
-      <p>Open 24 hours</p>
     </section>
   );
 }
+<a
+  href="https://maps.google.com/?q=21+Dopemu+Road+Orile+Agege+Lagos"
+  target="_blank"
+  rel="noreferrer"
+>
+  Get Directions
+</a>	
