@@ -22,9 +22,8 @@ export default function Services() {
           <div key={s} style={{
             padding:15,
             background:"#fff",
-            borderRadius:10,
+            borderRadius:"10px",
             boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-	    borderradius: "16px",
             border:"1px solid #eee"
           }}>
             {s}
