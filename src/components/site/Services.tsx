@@ -24,7 +24,7 @@ export default function Services() {
             background:"#fff",
             borderRadius:10,
             boxShadow: "0 4px 12px rgba(0,0,0,0.08)",
-	    border: "16px",
+	    borderradius: "16px",
             border:"1px solid #eee"
           }}>
             {s}
